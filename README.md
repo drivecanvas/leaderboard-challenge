@@ -1,4 +1,5 @@
-== BREEZY LEADERBOARD
+BREEZY LEADERBOARD
+=================
 
 For this project, we want to show the rankings of the top drivers on our platform.
 There are 3 pages to build:
