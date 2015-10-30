@@ -1,7 +1,15 @@
 BREEZY LEADERBOARD
 =================
 
-For this project, we want to show the rankings of the top drivers on our platform.
+Overview
+----------------
+For this project, we want you to build out the following functionality for a member earnings leaderboard. We
+have provided 90% of the backend API endpoints(inside of this Rails app) you will need to power the app.
+From here it is up to you to build out the front-end using either a framework or vanilla JS.
+
+What is the app?
+----------------
+We want to show the rankings of the top drivers on our platform.
 There are 3 pages to build:
 
 * Ranking page by overall earnings, average earnings and the logged in user's stats for the past 7 days
