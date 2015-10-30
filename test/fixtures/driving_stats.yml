@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  miles_driven: 1
+  user_id: 
+  start_time: 2015-10-29 14:12:46
+  end_time: 2015-10-29 14:12:46
+
+two:
+  miles_driven: 1
+  user_id: 
+  start_time: 2015-10-29 14:12:46
+  end_time: 2015-10-29 14:12:46
