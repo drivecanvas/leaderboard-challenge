@@ -4,8 +4,8 @@ BREEZY LEADERBOARD
 Overview
 ----------------
 For this project, we want you to build out the following functionality for a member earnings leaderboard. We
-have provided 90% of the backend API endpoints (inside of this Rails app), but you will need to power the app.
-From here it is up to you to build out the front-end using either a framework or vanilla JS.
+have provided 90% of the backend API endpoints (inside of this Rails app), but you will need to build out
+the JavaScript, HTML, and CSS to power the app. It's up to you to choose a framework or just use vanilla JS.
 
 What is the app?
 ----------------
