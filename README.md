@@ -4,7 +4,7 @@ BREEZY LEADERBOARD
 Overview
 ----------------
 For this project, we want you to build out the following functionality for a member earnings leaderboard. We
-have provided 90% of the backend API endpoints(inside of this Rails app),but you will need to power the app.
+have provided 90% of the backend API endpoints (inside of this Rails app), but you will need to power the app.
 From here it is up to you to build out the front-end using either a framework or vanilla JS.
 
 What is the app?
@@ -62,7 +62,6 @@ rails s
 
 Our backend API is built in Rails. All responses will come back in JSON format.
 Here are the list of available endpoints:
-
 ```
 GET  /api/users
 GET  /api/users/:id
@@ -134,4 +133,4 @@ Let's get building!
 -------------------
 After finishing the challenge, please host it somewhere. We host on Heroku, but please deploy to the provider of your choice.
 
-If you have any questions or comments, feel free to contact us. Have fun!
+Please contact us if you have any questions or comments. Have fun!
