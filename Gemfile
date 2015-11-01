@@ -34,8 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use bower for front-end dependency management
 gem 'bower-rails'
 
-#Use Postgres for production
-gem 'pg'
+
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
@@ -45,6 +44,13 @@ end
 
 group :development do
   gem 'sqlite3'
+end
+
+#Use Postgres for production
+group :production do
+  gem 'pg'
+  gem "activerecord-postgresql-adapter"
+  gem 'rails_12factor'
 end
 
 group :development, :test do
