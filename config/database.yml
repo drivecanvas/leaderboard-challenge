@@ -22,5 +22,7 @@ test:
 
 production:
   adapter: postgresql
-  database: mypostgres_database
+  database: mypostgresdb
+  pool: 5
+  timeout: 5000
 

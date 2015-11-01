@@ -15,7 +15,7 @@
 //= require bootstrap
 //= require jquery_ujs
 //= require turbolinks
+//= require angular-route/angular-route
+//= require angular-rails-templates
 //= require_tree .
 
-var leaderboardApp = angular.module('leaderboardApp',[
-]);

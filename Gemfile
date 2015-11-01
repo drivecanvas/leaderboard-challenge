@@ -34,7 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use bower for front-end dependency management
 gem 'bower-rails'
 
-
+gem 'sprockets', '2.8'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
@@ -45,6 +45,10 @@ end
 group :development do
   gem 'sqlite3'
 end
+
+
+# Use angular templates with rails' asset pipeline
+gem 'angular-rails-templates'
 
 #Use Postgres for production
 group :production do
