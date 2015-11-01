@@ -11,6 +11,11 @@
 // about supported directives.
 //
 //= require jquery
+//= require angular/angular
+//= require bootstrap
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var leaderboardApp = angular.module('leaderboardApp',[
+]);
