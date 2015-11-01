@@ -34,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use bower for front-end dependency management
 gem 'bower-rails'
 
+#Use Postgres for production
+gem 'pg'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
