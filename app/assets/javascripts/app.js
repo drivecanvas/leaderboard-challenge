@@ -15,7 +15,8 @@ angular
   .module('leaderboardApp', [
   	'templates',
   	'ngRoute',
-  	'controllers',
+  	'services',
+  	'controllers'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -23,9 +24,18 @@ angular
         templateUrl: 'main.html',
         controller: 'MainCtrl'
       })
+      .when('/driver',{
+      	templateUrl:'driver.html',
+      	controller: 'DriverCtrl'
+      })
+      .when('/driver/:num/:rank',{
+      	templateUrl:'driver.html',
+      	controller: 'DriverCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
 
 var controllers = angular.module('controllers',[]);
+var services = angular.module('services',[]);

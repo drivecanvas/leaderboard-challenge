@@ -1,5 +1,56 @@
-<div ng-app="leaderboardApp">
+<!DOCTYPE html>
+
+<html class=" js no-touch svg inlinesvg svgclippaths no-ie8compat csstransforms no-csstransforms3d csstransitions" lang="en"><!--<![endif]-->
+
+<style>
+  body{
+    background: #f5f3ee;
+  }
+  #main_img 
+  {position:relative}
+  .circular {
+  width: 56px;
+  height: 56pxpx;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  }
+
+</style>
+
+<head>
+</head>
+<body>
+
+<div id="nav" style="background-color: #ffffff; height: 50px;">
+</div>
+<div id="mainpanel" style="position:relative;">
+    
+       <img  id = "main_img" src="assets/white-prius-transparent.png" alt="line" height="249" width="285" style="left:573px; top:73px">
+       <div class="row" style="text-align: center; position:relative; width: 460px; height: 181px; background: #ffffff; left: 490px; border-top: 1px solid #1dc28d; z-index:999;">
+      <div>
+       
+      </div>
+      <div class="row">
+      <div class="col-lg-4 columns">
+
+      </div>
+
+      <div class="col-lg-4 columns">
+        
+      </div>
+
+      <div class="col-lg-4 columns">
+        
+      </div>
+    </div>    
+    </div>
+
+</div> 
+<div ng-app="leaderboardApp" >
   <div class="view-container">
     <div ng-view class="view-frame animate-view"></div>
   </div>
 </div>
+</body>
+</html>

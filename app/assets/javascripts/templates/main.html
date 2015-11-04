@@ -1,3 +1,31 @@
-<div>
-  This is main view
+<div style="padding-bottom:256px">
+<div id="detailspanel" style="padding-top:15px; left:490px;position:relative">
+    <div class="row detailspanel" style="text-align: center; padding-top: 10px;width: 460px; height: 60px; background: #ffffff; border-bottom: 1px solid #1dc28d">
+      <a href="#"> 
+      <div class="col-lg-6 columns" style="text-align: center;">
+      <h5>Top Weekly Earners</h5>
+      </div>
+      </a>
+      <a href = "#">
+      <div class="col-lg-6 columns">
+      <h5>Top Per hour Earners</h5>
+      </div>
+      </a>
+    </div>  
+</div>   
+<div ng-repeat = "driver in drivers | orderBy:'-total_earnings' " class="row" style="width: 462px; height:80px; left: 489px; position:relative; padding-top: 30px; border: 1px solid #d7d7d7; text-align:center;background: #ffffff;  ">
+      <div class="col-lg-3 columns">
+      <span>{{$index + 1}}</span><img src="assets/assets_png/assets_svg/bitmap.png" alt="" width="50px" height="50px" />
+      </div>
+      <div class="col-lg-3 columns">
+      {{driver.first_name}} {{driver.last_name}}
+      </div>
+      <div class="col-lg-3 columns">
+     $ {{driver.total_earnings}}
+       </div>
+      <a href = "#/driver/{{ driver.id }}/{{$index+1}}">
+      <div class="col-lg-3 columns">
+         &gt
+      </div></a>
+</div> 
 </div>
