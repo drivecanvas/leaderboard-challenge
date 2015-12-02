@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151029211408) do
+ActiveRecord::Schema.define(version: 20151202221728) do
 
   create_table "driving_stats", force: :cascade do |t|
     t.integer  "miles_driven"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 20151029211408) do
     t.string   "car_color"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.integer  "current_rank"
   end
 
 end

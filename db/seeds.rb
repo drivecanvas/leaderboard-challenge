@@ -55,6 +55,8 @@ user_names = [
 ]
 
 car_colors = ["blue", "black", "white", "light gray", "red"]
+previous_ranks = (1..user_names.size).to_a.shuffle
+current_ranks = (1..user_names.size).to_a.shuffle
 
 user_names.shuffle.each_with_index do |name, i|
   first_name = name.split(' ')[0]
@@ -65,7 +67,8 @@ user_names.shuffle.each_with_index do |name, i|
                      phone_number: rand.to_s[2..11],
                      car_name: car_names[i],
                      car_color: car_colors.shuffle.first,
-                     previous_rank: i + 1)
+                     previous_rank: previous_ranks[i],
+                     current_rank: current_ranks[i])
 
   rand(15..20).times do
     user.earnings.create(amount: rand(10.00..200.00).round(2),
